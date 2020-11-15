@@ -1,6 +1,6 @@
 .sidebar {
   display: flex;
-  flex: 0.30;
+  flex: .35;
   flex-direction: column;
   height: 100vh;
   border: 1px solid rgba(190, 190, 190, 0.1);
@@ -41,4 +41,27 @@
 
 .sidebar__chats {
   color: white;
+  overflow: scroll;
+  flex: 1;
+}
+
+.sidebar__chats::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar__footer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-evenly;
+  border-top: 1px solid gray;
+}
+
+.sidebar__footer > button {
+  color: white;
+}
+
+.sidebar__footer > button:hover {
+  color: rgba(2, 150, 199);
+  cursor: pointer;
 }

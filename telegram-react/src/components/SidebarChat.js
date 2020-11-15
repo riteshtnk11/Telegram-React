@@ -7,7 +7,7 @@ const SidebarChat = () => {
     <div className="sidebarThread">
       <Avatar />
       <div  className="sidebarThread__details"> 
-        <h3> Chat Profile </h3>
+        <h3> Chat Name </h3>
         <p>This is the message</p>
         <small className="sidebarThread__timestamp"> timestamp</small>
       </div>

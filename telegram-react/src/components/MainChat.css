@@ -1,0 +1,38 @@
+.chat{
+    color: white;
+    display: flex;
+    flex: .65;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.chat__header{
+    display: flex;
+    border-bottom: 1px solid rgba(190,190,190,.1);
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.chat__header__contents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+
+.chat__header__contents__info > h5 {
+    font-weight: 500;
+    color: gray;
+    
+}
+
+.chat__header__details {
+    color: white;
+    float: right;
+}
+
+.chat__header__details:hover {
+    color: rgba(1, 150, 199 );
+}
