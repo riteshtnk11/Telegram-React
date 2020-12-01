@@ -1,5 +1,4 @@
 import { Avatar, IconButton } from "@material-ui/core";
-import SelectInput from "@material-ui/core/Select/SelectInput";
 import MoreHoriz from "@material-ui/icons/MoreHoriz";
 import React, { useState } from "react";
 import "./MainChat.css";
